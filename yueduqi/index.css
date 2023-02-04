@@ -1,0 +1,21 @@
+header{
+    position: absolute;
+    top:10%;
+    width:20%;
+}
+.list{
+    position: absolute;
+    top:30%;
+    width:20%;
+}
+.list ul{
+    font-size: 25px;
+}
+.list li{
+    font-size: 20px;
+}
+.content{
+    position: absolute;
+    left:30%;
+    width:40%;
+}

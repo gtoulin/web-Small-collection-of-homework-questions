@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+    outline: none;
+}
+/*居中显示*/
+#wrapper {
+    width: 50%;
+    border: 1px dotted #cccccc;
+    margin: 50px auto;
+    padding: 20px;
+}
+/* 留言显示区域 */
+.comment {
+    position: relative;
+    overflow: hidden;
+}
+.message {
+    width: 106%;
+    height: 200px;
+    overflow: auto;
+}
+.message li {
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 留言输入框 */
+.content {
+    width: 80%;
+    line-height: 1.5;
+    font-size: 14px;
+}
+/* 留言发布区域 */
+.sendMessageWrap {
+    margin-top: 20px;
+}
+/* 发布 */
+.sendMessageWrap input,.sendMessageWrap textarea {
+    display: block;
+    width: 500px;
+    height: 80px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+/* 发布留言按钮 */
+.sendMessageWrap button {
+    border: 0;
+    background-color: deepskyblue;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}

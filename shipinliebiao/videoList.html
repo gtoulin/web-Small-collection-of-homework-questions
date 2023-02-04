@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>视频列表</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+<body onload="loadBody()">
+    <article class="container" >
+    <nav class="navbar">
+    <form class="form-inline mr-auto" >
+        <input id = "keyword" type="text" class="form-control" />
+        <input type="button"  class="btn" onclick="loadBody()" value="搜索" />
+    </form>
+    </nav>
+    <section class="row">
+    <div class="col-12">
+    <div id="list" class="card-columns" >
+     <!-- 列表 -->
+    </div>
+    </div>
+    </section>
+    <nav>
+        <!--分页-->
+        <ul class="pagination justify-content-end">
+        <li class="page-item" >
+        <a class="page-link" href="javascript:;" tabindex="－1" > <
+        </a>
+        </li>
+        <li class="page-item" >
+        <a class= "page-link" href="javascript:;">1</a>
+        </li>
+        <li class="page-item" >
+        <a class="page-link" href="javascript:;"> > </a>
+        </li>
+        </ul>
+    </nav>
+    </article>
+</body>
+</html>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/search.js"></script>
